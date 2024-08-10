@@ -2,15 +2,15 @@ import React from 'react'
 
 const Accordians = () => {
   return (
-    <div className='accor'><div class="accordion " id="accordionPanelsStayOpenExample" style={{"width":"70vw"}}>
-    <div class="accordion-item border-0 border-top border-bottom p-4 active-0"  >
-      <h2 class="accordion-header">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+    <div className='accor'><div className="accordion " id="accordionPanelsStayOpenExample" style={{"width":"70vw"}}>
+    <div className="accordion-item border-0 border-top border-bottom p-4 "  >
+      <h2 className="accordion-header">
+        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
           For all
         </button>
       </h2>
-      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-        <div class="accordion-body ">
+      <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
+        <div className="accordion-body ">
           <div className="accor-card ">
             <img src="/icon1.png" alt="" />
             <p>Android</p>
@@ -147,15 +147,15 @@ const Accordians = () => {
         </div>
       </div>
     </div>
-    <div class="accordion-item border-0 border-top border-bottom p-4">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+    <div className="accordion-item border-0 border-top border-bottom p-4">
+      <h2 className="accordion-header">
+        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
           For business
         </button>
       </h2>
-      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-        <div class="accordion-body">
-        <div class="accordion-body">
+      <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
+        <div className="accordion-body">
+        <div className="accordion-body">
           <div className="accor-card">
             <img src="/icon1.png" alt="" />
             <p>Android</p>
@@ -293,15 +293,15 @@ const Accordians = () => {
         </div>
       </div>
     </div>
-    <div class="accordion-item border-0 border-top border-bottom p-4">
-      <h2 class="accordion-header">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+    <div className="accordion-item border-0 border-top border-bottom p-4">
+      <h2 className="accordion-header">
+        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
       For developer
         </button>
       </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-        <div class="accordion-body">
-        <div class="accordion-body">
+      <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
+        <div className="accordion-body">
+        <div className="accordion-body">
           <div className="accor-card">
             <img src="/icon1.png" alt="" />
             <p>Android</p>

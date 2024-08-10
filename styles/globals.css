@@ -473,7 +473,7 @@ flex-direction: column;
   align-items: center;
 gap: 0px;
 border-bottom:1px solid rgba(0, 0, 0, 0.317) ;
-width: 14%;
+width: 150px;
 
 }
 .accor-card img{
@@ -492,4 +492,57 @@ width: 14%;
 display: flex;
 gap: 40px;
 flex-wrap: wrap;
+}
+
+/* footer css */
+.footer-main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-2{
+display: flex;
+width: 80vw;
+flex-wrap: wrap;
+
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+ 
+}
+.footer-item a{
+  text-decoration: none;
+  cursor: pointer;
+}
+/* @media (max-width:1800px){
+  
+  .accor-footer{
+display: none;
+  }
+
+}
+@media (max-width:1000px){
+  
+  .footer-main{
+    display: none;
+  }
+  .accor-footer{
+    display: block;
+  }
+  
+} */
+
+.media{
+  display: flex;
+  
+
+}
+
+.media ul{
+  display: flex;
+  gap: 10px;
 }

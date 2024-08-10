@@ -4,194 +4,276 @@ const Footer = () => {
   return (
     <div>
       <footer
-        className="text-gray-600 body-font"
-        style={{ "background-color": "rgb(243,244,246)" }}
+        className="footer-main"
+        // style={{ "background-color": "rgb(243,244,246)" }}
       >
-        {/* <div className="followus" style={{ position: "relative", left: "20" }}>
-          <span>Follow Us</span>
-          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="text-gray-500">
+        <div className="media">
+          <h4>Folow Us</h4>
+          <ul>
+            <li>
               <svg
-                fill="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
-              >
-                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
-              <svg
                 fill="none"
                 stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-instagram"
               >
-                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37a4 4 0 1 1-2.63-3.77"></path>
+                <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
               </svg>
-            </a>
-            <a className="ml-3 text-gray-500">
+            </li>
+            <li>
               <svg
-                fill="currentColor"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="0"
-                className="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
                 viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-facebook"
               >
-                <path
-                  stroke="none"
-                  d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                ></path>
-                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                <path d="M18 2h-3.5a5.5 5.5 0 0 0-5.5 5.5v3h-3v4h3v9h4v-9h3.5l.5-4h-4z"></path>
               </svg>
-            </a>
-          </span>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-twitter"
+              >
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.23A5.5 5.5 0 0 0 22.36 1a10.89 10.89 0 0 1-3.49 1.34A5.45 5.45 0 0 0 16.55 0a5.5 5.5 0 0 0-5.5 5.5a5.45 5.45 0 0 0 .14 1.25A15.6 15.6 0 0 1 1.64 2.43a5.45 5.45 0 0 0 1.7 7.29A5.5 5.5 0 0 1 1 9.5a5.5 5.5 0 0 0 4.4 5.4A5.5 5.5 0 0 1 2 16v.07a5.48 5.48 0 0 0 4.45 5.4a10.9 10.9 0 0 1-6.75 2.33a10.4 10.4 0 0 1-1.29-.07a15.4 15.4 0 0 0 8.27 2.43c9.94 0 15.36-8.24 15.36-15.36v-.7A10.98 10.98 0 0 0 23 3z"></path>
+              </svg>
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-youtube"
+              >
+                <path d="M22.54 6.42a2.74 2.74 0 0 0-1.92-1.92C19.12 4 12 4 12 4s-7.12 0-8.62.5A2.74 2.74 0 0 0 1.46 6.42C.96 7.91.96 12 .96 12s0 4.09.5 5.58a2.74 2.74 0 0 0 1.92 1.92C4.88 20 12 20 12 20s7.12 0 8.62-.5a2.74 2.74 0 0 0 1.92-1.92C23.04 16.09 23.04 12 23.04 12s0-4.09-.5-5.58zM10 15V9l6 3-6 3z"></path>
+              </svg>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-2">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4 footer-item">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              Company Resources
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              Featured Product
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              Responsibility
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+              More about us
+            </h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">
+                  Press resources
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+
+        {/* <div className="accor-footer">
+        <div class="accordion-item border-0 border-top border-bottom p-4 "  >
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          For all
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body ">
+        <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Contact us</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Help center</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Locations</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Careers</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Blog</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">Press resources</a>
+              </li>
+            </nav>
+         
+        </div>
+      </div>
+    </div>
         </div> */}
-        <div
-          className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
-          style={{ "background-color": "rgb(243,244,246)" }}
-        >
-          <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    First Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Second Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Third Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fourth Link
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    First Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Second Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Third Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fourth Link
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    First Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Second Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Third Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fourth Link
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                CATEGORIES
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    First Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Second Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Third Link
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Fourth Link
-                  </a>
-                </li>
-              </nav>
-            </div>
-          </div>
-        </div>
-        <div className="bg-gray-100">
-          <div
-            className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row"
-            style={{ "background-color": "rgb(243,244,246)" }}
-          >
-            <p className="text-gray-500 text-sm text-center sm:text-left">
-              © 2024 Google
-            </p>
-          </div>
-        </div>
       </footer>
     </div>
   );
