@@ -1,0 +1,495 @@
+/*product styles.css */
+
+.customHeading {
+  font-size: 6.5rem;
+  font-weight: 1px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 70vw;
+  background-color: white;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+@media (max-width: 1280px) {
+  .customHeading {
+    font-size: 3.5rem; /* Font size for screens <= 1280px */
+  }
+}
+
+@media (max-width: 1024px) {
+  .customHeading {
+    font-size: 3rem; /* Font size for screens <= 1024px */
+  }
+}
+
+@media (max-width: 600px) {
+  .customHeading {
+    font-size: 2rem; /* Font size for screens <= 600px */
+  }
+}
+/* card css */
+.card1 {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 80px;
+  justify-content: center;
+}
+.card {
+  cursor: pointer;
+  width: 23rem;
+}
+.card:hover {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+@media (max-width: 1280px) {
+  .card {
+    width: 20rem;
+  }
+  .card1 {
+    gap: 70px;
+  }
+}
+@media (max-width: 750px) {
+  .card {
+    width: 17rem;
+  }
+  .card1 {
+    gap: 50px;
+  }
+}
+@media (max-width: 600px) {
+  .card1 {
+    gap: 10px;
+  }
+  /* .card img{
+    display: none;
+   
+  } */
+}
+
+/* page2 css
+     */
+.card-2 {
+  width: 70vw; /* Main container width */
+  margin: 0 auto; /* Center container horizontally */
+  padding: 1rem;
+  margin-top: 100px;
+}
+.card-2 .btun {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}.btun button{
+    font-weight: 500;
+    padding: 15px;
+    width: 200px;
+    font-size: 16px;
+}
+.inside-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* Space between cards */
+  justify-content: center; /* Center cards horizontally */
+}
+
+.card-item {
+    cursor: pointer;
+
+  flex: 1 1; /* 3 cards per row with gap */
+  padding: 1rem;
+  border-radius: 0.2rem; /* Rounded corners */
+  display: flex; /* Use flexbox for card content alignment */
+  align-items: center; /* Center items vertically */
+  text-align: left; /* Align text to the left */
+}
+
+.card-item img {
+  width: 100px; /* Set image width */
+  height: 60px; /* Maintain aspect ratio */
+  border-radius: 0.5rem; /* Rounded corners for image */
+  margin-right: 1rem; /* Space between image and text */
+}
+
+.card-item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500; /* Remove default margin */
+}
+
+@media (max-width: 600px) {
+ 
+  .card-item img{
+  display: none;
+  }
+.card-item p{
+  width: 70vw;
+}
+.inside-card{
+  display: block;
+}
+}
+
+
+/* YTdesc css */
+.main{
+    width: 100vw;
+margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    background-color:rgb(210,227,252);
+    width: 70vw;
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+border-radius: 15px;
+
+}
+.left-content{
+    width: 30%;
+    align-items: center;
+    margin-top: 70px;
+}
+.left-content p{
+font-size: 35px;
+}
+.left-content button{
+padding: 13px;
+width: 140px;
+border: 1px solid rgba(159, 159, 159, 0.404);
+color: blue;
+border-radius: 4px;
+}
+.left-content button:hover{
+color: rgba(0, 0, 0, 0.614);
+border: 1px solid rgba(1, 1, 208, 0.613);
+
+}
+.right{ 
+   
+    width: 70%;
+    height: 400px;
+}
+.content .right iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+@media (max-width: 1280px) {
+  .content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+  }
+  .left-content{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .right {
+   
+    width: 100%;
+  }
+}
+
+@media (max-width:600px){
+  .left-content p{
+    font-size: 25px;
+    }
+    .left-content{
+    
+      margin-top: 20px;
+   
+    }
+    
+}
+
+
+
+
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+
+
+/* responsive img product */
+  .res-img {
+    width: 70vw;
+    margin-top: 50px;
+  }
+
+
+
+/* ytdesc ma highligh product css */
+.product-highlight{
+  margin-top: 50px;
+  width: 70vw;
+  display: flex;
+  gap: 50px;
+ 
+  
+}
+.highlight-left{
+    background-color: rgb(232,234,237);
+width: 50%;
+padding: 50px;
+border-radius: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+  }
+  .highlight-left h3{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: initial;
+    line-height: 36px;
+  }
+.card-high {
+  display: flex;
+  align-items: center;
+background-color: white;
+cursor: pointer;
+  
+  border-radius: 8px;
+}
+.card-high:hover{
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.card-text {
+  flex: 1;
+}
+
+
+.card-text p {
+  margin: 0;
+  text-align: left;
+  font-size: large;
+}
+
+.highlight-right{
+  background-color: rgb(206,234,214);
+  width: 50%;
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+.highlight-right p{
+  font-size: 28px;
+        font-weight: 400;
+        letter-spacing: initial;
+        line-height: 36px;
+}
+@media (max-width:1200px){
+  .product-highlight{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .highlight-right{
+    width: 100%;
+  }
+  .highlight-left{
+    width: 100%;
+  }
+}
+
+/* devices css */
+.devices-main{
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 100px;
+
+} 
+
+.devices-content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.devices-content h3{
+  font-size: 60px;
+        font-weight: 400;
+        letter-spacing: -.5px;
+        line-height: 72px;
+        width: 80%;
+}
+.devices-content p{
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -.25px;
+  line-height: 44px;
+  color: rgba(0, 0, 0, 0.469);
+  width: 55%;
+  text-align: center;
+}
+@media (max-width:1200px){
+  .devices-content p   {      
+      font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -.25px;
+  line-height: 40px;
+ 
+
+}
+
+}
+@media (max-width:1000px){
+  .devices-content h3{
+    width: 80%;
+  }
+  .devices-content p{
+    width: 70%;
+  }
+}
+
+
+/* edvices card css */
+.devices-card{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+
+/* new yt css */
+.newyt-content{
+  display: flex;
+gap: 180px;
+justify-content: center;
+margin-top: 50px;
+height: 80vh;
+align-items: center;
+
+}
+.newyt-right{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.newyt-right h4{
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: -.25px;
+  line-height: 44px;
+}
+.newyt-right p{
+  font-size: 20px;
+        font-weight: 400;
+        letter-spacing: initial;
+        line-height: 28px;
+}
+.newyt-left{
+  width: 40%;
+}
+.newyt-left iframe{
+  width: 95%;
+  border-radius: 5px;
+
+}
+.google-img{
+display: flex;
+width: 100vw;
+margin-top: 100px;
+justify-content: center;
+}
+.google-img img{
+  width: 70vw;
+
+}
+@media (max-width:1300px){
+  .newyt-content{
+ 
+  gap: 20px;
+  
+  }
+}
+@media (max-width:1200px){
+  .newyt-content{
+flex-direction: column;
+  }
+  .newyt-left{
+    width: 70%;
+  }
+  .newyt-right{
+    width: 70%;
+  }
+}
+
+
+/* accordians css */
+.accor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.accor-card{
+  display: flex;
+  align-items: center;
+gap: 0px;
+border-bottom:1px solid rgba(0, 0, 0, 0.317) ;
+width: 14%;
+
+}
+.accor-card img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 10px;
+}
+.accor-card p{
+  margin: 0;
+  text-align: left;
+  font-size: large;
+  font-weight: 500;
+}
+.accordion-body{
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+}
