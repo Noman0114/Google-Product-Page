@@ -1,14 +1,9 @@
-import React from "react";
-import Accordion from "./Products/Accordion"
-const Footer = () => {
+import React from 'react'
+
+const Accordion = () => {
   return (
-    <div className="foot">
-      <footer
-        className="footer-main"
-        // style={{ "background-color": "rgb(243,244,246)" }}
-      >
-        <div className="hidden">
-          <div className="media">
+    <div>
+         <div className="media">
             <h4>Follow Us</h4>
             <ul>
               <li>
@@ -79,11 +74,16 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="footer-2">
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4 footer-item">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                Company Resources
-              </h2>
+        <div className="accordion accordion-flush" id="accordionFlushExample" style={{    width:'70vw'}}>
+  <div className="accordion-item">
+    <h2 className="accordion-header ">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+      Company Resources
+      </button>
+    </h2>
+    <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body"> <div className="lg:w-1/4 md:w-1/2 w-full px-4 footer-item">
+             
               <nav className="list-none mb-10">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
@@ -110,169 +110,88 @@ const Footer = () => {
                   </a>
                 </li>
               </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                Featured Product
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Contact us
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                Responsibility
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Contact us
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/4 md:w-1/2 w-full px-4  footer-item">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-                More about us
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Contact us
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Help center
-                  </a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
-                </li>
-                <li>
-                  <a className="text-gray-600 hover:text-gray-800">
-                    Press resources
-                  </a>
-                </li>
-              </nav>
-            </div>
-          </div>
-        </div>
-
-        <div className="accor-footer">
-      
-        <Accordion />
-
-          
-        </div>
-      </footer>
+            </div></div>
     </div>
-  );
-};
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Feature Product
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body"> <div className="lg:w-1/4 md:w-1/2 w-full px-4 footer-item">
+              
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Contact us
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Help center
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Press resources
+                  </a>
+                </li>
+              </nav>
+            </div></div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       Responsibility
+      </button>
+    </h2>
+    <div id="flush-collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div className="accordion-body"> <div className="lg:w-1/4 md:w-1/2 w-full px-4 footer-item">
+             
+              <nav className="list-none mb-10">
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Contact us
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Help center
+                  </a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Locations</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Careers</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">Blog</a>
+                </li>
+                <li>
+                  <a className="text-gray-600 hover:text-gray-800">
+                    Press resources
+                  </a>
+                </li>
+              </nav>
+            </div></div>
+    </div>
+  </div>
+</div>
+    </div>
+  )
+}
 
-export default Footer;
+export default Accordion

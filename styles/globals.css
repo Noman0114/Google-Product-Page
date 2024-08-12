@@ -329,6 +329,14 @@ cursor: pointer;
     width: 100%;
   }
 }
+@media (max-width:500px){
+  .card-high img{
+    display: none;
+  }
+  .highlight-right p{
+    font-size: 22px;
+  }
+}
 
 /* devices css */
 .devices-main{
@@ -383,7 +391,15 @@ margin-top: 100px;
     width: 70%;
   }
 }
-
+@media (max-width:600px){
+  .devices-content p{
+    font-size: 22px;
+  }
+  .devices-content h3{
+    font-size: 26px;
+    line-height: 34px;
+  }
+}
 
 /* edvices card css */
 .devices-card{
@@ -401,7 +417,7 @@ margin-top: 100px;
 gap: 180px;
 justify-content: center;
 margin-top: 50px;
-height: 80vh;
+
 align-items: center;
 
 }
@@ -459,6 +475,12 @@ flex-direction: column;
     width: 70%;
   }
 }
+@media (max-width:500px){
+  .newyt-right{
+   gap: 0px;
+  }
+}
+
 
 
 /* accordians css */
@@ -518,31 +540,28 @@ flex-wrap: wrap;
   text-decoration: none;
   cursor: pointer;
 }
-/* @media (max-width:1800px){
-  
-  .accor-footer{
-display: none;
-  }
-
+.media,ul{
+  display: flex;
+  gap: 10px;
 }
+.accor-footer{
+  display: none;
+    }
+    .hidden{
+      display: block;
+    }
+    .foot{
+      background-color: rgb(248,249,250);
+    }
 @media (max-width:1000px){
   
-  .footer-main{
+  .hidden{
     display: none;
   }
   .accor-footer{
     display: block;
   }
-  
-} */
-
-.media{
-  display: flex;
-  
-
-}
-
-.media ul{
-  display: flex;
-  gap: 10px;
+  .foot{
+    background-color: white;
+  }
 }
